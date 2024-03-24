@@ -1,0 +1,40 @@
+/* Estilizando el contenedor 'nav' */
+nav {
+    background: #ced3d3;
+    height: 4rem;
+    width: 100%;
+    text-align: center; /* Centra el contenido de texto, incluidos elementos inline o inline-block */
+}
+
+nav ul {
+    display: inline-block; /* Hace que el ul se comporte como un elemento inline-block */
+    margin: 0 auto; /* Centra el ul horizontalmente */
+
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 4rem;
+   /*  margin: 0 0.2rem; */
+ 
+}
+
+nav ul li a {
+    color: rgba(10, 10, 10, 1);
+    font-weight: bold;
+    font-size: 0.8rem;
+    padding: 0.2rem 2rem;
+    text-transform: uppercase;
+    transition: all 1s ease;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+}
+  
+nav ul li a:hover{
+
+    color: rgb(112, 9, 20);
+    transform: scale(1.3);
+    transition: all 2000ms; 
+    font-size: 1rem;
+
+}

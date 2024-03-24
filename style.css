@@ -2,26 +2,17 @@
     padding: 0 ;
     margin: 0;
     color: aliceblue;
+    box-sizing: border-box;
 }
+
 
 body{
     background-color: black;
 
 }
 
-a{
-    /* color: red; */
-    position: relative;
-    top: -130px;
-    text-decoration: none;
-    font-size: 20px;
-}
 
-a:hover{
-    scale: 1.5;
-    color:black;
-    font-size: 25px;
-}
+
 
 #contenedor{
 
@@ -75,14 +66,23 @@ form{
 
     width: 90%;
     margin: auto;
+    margin-top: 20px;
 }
 
-ul li {
+#integrantes ul li {
     color: black;
 }
-form label  {
+
+#contenedor a{
     color: black;
 }
-a{
+
+
+#formulario label{
     color: black;
 }
+
+
+
+
+
